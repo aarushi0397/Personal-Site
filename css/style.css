@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.top-container {
+  background-color: lightblue;
+}
+
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
