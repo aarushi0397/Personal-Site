@@ -1,0 +1,24 @@
+/*Title Section */
+
+.title-box {
+  width: 100wh;
+  height: 100vh;
+  background-image: url("C:/Users/User/OneDrive/Documents/My Website/Images/display-pic.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+}
+
+/* Nav Section */
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
