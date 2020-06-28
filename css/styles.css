@@ -8,17 +8,153 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.color-layer {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
   opacity: 0.8;
 }
 
+.fa-user {
+  color: #4C4646;
+}
+
 /* Nav Section */
+.navbar {
+  margin: 10px 10px;
+}
 
 .nav-link {
   font-size: 1rem;
   font-weight: bold;
+
 }
 
 .navbar-brand {
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+/* Title Content Section */
+
+.title-content {
+  position: absolute;
+  left: 60px;
+  top: 220px;
+  color: white;
+}
+
+.intro {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 3.5rem;
+  font-family: 'Noto Serif', serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.desc {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  padding-top: 0;
+}
+
+#desc-color {
+  color: red;
+}
+
+/* About Section */
+
+.about-box {
+  width: 100wh;
+  height: 110vh;
+  color: black;
+  padding: 50px 10px 50px 30px;
+  text-align: center;
+  position: relative;
+}
+
+#about-ques {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+.about-content {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+.about-para {
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  padding-right: 20px;
+  padding-top: 10px;
+  letter-spacing: 1.5;
+}
+
+.hr-style {
+  margin: 80px 150px 40px 150px;
+  color: black;
+  border: 1px solid #D1D0CE;
+}
+
+/* Work Section */
+
+.work-box {
+  width: 100wh;
+  height: 90vh;
+  background-image: url("C:/Users/User/OneDrive/Documents/My Website/Images/work.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.arrow-padding {
+  padding-top: 350px;
+}
+
+/* Contact Section */
+
+.contact-box {
+  width: 100wh;
+  height: 80vh;
+  text-align: center;
+  padding: 50px 10px 50px 30px;
+}
+
+.name-contact {
+  font-size: 3.5rem;
+  font-family: 'Noto Serif', serif;
+  padding-bottom: 80px;
+}
+
+.contact-text {
+  padding-top: 50px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.icon-color {
+  color: #E42217;
 }
