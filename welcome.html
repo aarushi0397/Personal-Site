@@ -6,38 +6,126 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 
 </head>
 
   <body>
+
+  <!-- Title Section -->
+
     <section id="title">
       <div class="title-box">
-
-    <!-- Nav Bar -->
-      <div class="">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="">Welcome to my Page</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-               <a class="nav-link" href="#">About</a>
-              </li>
-             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
-             </li>
-             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-             </li>
-            </ul>
+        <div class="color-layer">
+          <!-- Nav Bar -->
+          <div class="">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href=""><i class="fas fa-user fa-1x"></i></i></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                   <a class="nav-link" href="#About">About</a>
+                  </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="#Work">Work</a>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                 </li>
+                </ul>
+              </div>
+            </nav>
           </div>
-        </nav>
+
+        </div>
+
+
+    <div class="title-content">
+      <p class="intro">Hi, I am</p>
+      <p class="name">Aarushi Verma</p>
+      <p class="desc">I am a <span id="desc-color">developer</span></p>
+    </div>
       </div>
 
+    </section>
 
+    <!-- About Section -->
+
+    <section id="About">
+      <div class="about-box">
+        <p class="name">About Me</p>
+        <p id="about-ques">Who am I?</p>
+        <p class="about-content">I am Aarushi Verma, an aspiring UI/UX Designer and a Web Developer</p>
+        <p class="about-para">I am a freelancer based in Pune, Maharashta India. I am currently taking up full stack web development course
+        which includes latest technologies. I am soon aspiring to become a full stack developer. In addition to this, I also have knowledge in software testing and I am currently working as a Software Tester at Larsen and Toubro Infotech Pune, India. I am serving the company since 1 year and have also put my hands onto performance testing. </p>
+        <hr class="hr-style">
+        <a class="btn btn-lg btn-outline-dark" href="#">Download CV</a>
+      </div>
+
+    </section>
+
+    <!-- Work Section -->
+
+    <section id="Work">
+      <div class="work-box">
+
+        <div class="color-layer">
+
+        </div>
+
+        <div id="carousel-work" class="carousel slide" data-ride="false">
+           <div class="carousel-inner">
+            <div class="carousel-item active">
+             <h2>Work</h2>
+            </div>
+            <div class="carousel-item">
+             <h2>From</h2>
+            </div>
+            <div class="carousel-item">
+             <h2>Home</h2>
+            </div>
+           </div>
+         <a class="arrow-padding carousel-control-prev" href="#carousel-work" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+         </a>
+        <a class="arrow-padding carousel-control-next" href="#carousel-work" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+       </a>
+    </div>
+
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+      <div class="contact-box">
+        <p class="name-contact">Get in Touch</p>
+        <div class="row">
+          <div class="col-sm">
+            <i class="icon-color fas fa-map fa-4x"></i>
+            <p class="contact-text">Blue Ridge, Pune India</p>
+          </div>
+         <div class="col-sm">
+            <i class="icon-color fas fa-phone fa-4x"></i>
+            <p class="contact-text">+91 7248355530</p>
+         </div>
+         <div class="col-sm">
+            <i class="icon-color fas fa-envelope fa-4x"></i>
+            <p class="contact-text">aarushi.verma03@gmail.com</p>
+         </div>
+       </div>
       </div>
 
     </section>
