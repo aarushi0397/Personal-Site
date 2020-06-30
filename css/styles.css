@@ -3,7 +3,7 @@
 .title-box {
   width: 100wh;
   height: 100vh;
-  background-image: url("C:/Users/User/OneDrive/Documents/My Website/Images/display-pic.JPG");
+  background-image: url("../Images/display-pic.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,6 +40,7 @@
   font-weight: bold;
 }
 
+
 /* Title Content Section */
 
 .title-content {
@@ -71,9 +72,10 @@
   padding-top: 0;
 }
 
-#desc-color {
+.desc-color {
   color: red;
 }
+
 
 /* About Section */
 
@@ -121,7 +123,7 @@
 .work-box {
   width: 100wh;
   height: 90vh;
-  background-image: url("C:/Users/User/OneDrive/Documents/My Website/Images/work.JPG");
+  background-image: url("../Images/work.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,14 +133,14 @@
 }
 
 .arrow-padding {
-  padding-top: 350px;
+  padding-top: 300px;
 }
 
 /* Contact Section */
 
 .contact-box {
   width: 100wh;
-  height: 80vh;
+  height: 70vh;
   text-align: center;
   padding: 50px 10px 50px 30px;
 }
@@ -146,15 +148,32 @@
 .name-contact {
   font-size: 3.5rem;
   font-family: 'Noto Serif', serif;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .contact-text {
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
 .icon-color {
   color: #E42217;
+}
+
+/* Footer Section */
+
+.footer-box {
+  width: 100wh;
+  height: 25vh;
+  padding: 50px 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+}
+
+.social-icon-space {
+  margin: 10px 10px;
+  color: white;
 }
